@@ -5,7 +5,38 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: palegreen;
 }
+textarea{
+  font-size: x-large;
+  width: 400px;
+  height: 300px;
+  border-radius: 5px;
+}
+.firstbox{
+  height: 300px;
+  width: 500px;
+  font-size: large;
+  font-style: italic;
+}
+
+.secondbox{
+  height: 300px;
+  width: 500px;
+  font-size: large;
+  background-color: bisque;
+}
+
+.prebox{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin:10px;
+  
+}
+
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
